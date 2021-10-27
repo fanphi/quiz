@@ -2,4 +2,32 @@ body{
     background-color: #e7ccdb;
     color:#735d78;}
    
+    h1{
+        display: flex;
+        justify-content: center;
+    }
+    
 
+#color-buttons{
+    line-height: 50px;
+  text-align: center;
+}
+
+#questions{
+    text-align: center;
+}
+legend{
+    font-size: 120%;
+}
+
+label{
+    line-height: 20px;
+}
+
+#last-buttons{
+    text-align: center;
+}
+
+#result{
+    text-align: center;
+}
