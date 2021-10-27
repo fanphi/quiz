@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>10 frågar om Fanny!</h1>
+   <div id="color-buttons"><button id="light-button">Light Mode</button>
+    <button id="dark-button">Dark Mode</button>
+    </div>
+    
+   <div id="questions"> 
+       <legend for="q1">1. Vad gillar Fanny inte att göra?</legend>
+ 
+ <input type="radio" value="correct" name="q1" id="a1"> 
+ <label for="a1">a. Jogga</label><br>
+ 
+ <input type="radio" value="wrong" name="q1" id="b1">
+ <label for="b1">b. Bada</label><br>
+
+ <input type="radio" value="wrong" name="q1" id="c1">
+ <label for="c1">c. Titta på TV-serier</label>
+ 
+ <legend for="q2">2. Vad gillar Fanny att äta?</legend>
+ <input type="radio" value="wrong" name="q2" id="a2">
+ <label for="a2">a. Bacon</label>
+ <br>
+ <input type="radio" value="correct" name="q2" id="b2">
+ <label for="b2">b. Pizza</label>
+ <br>
+ <input type="radio" value="wrong" name="q2" id="c2">
+ <label for="c2">c. Kebab</label>
+
+ <legend for="q3">3. Vilket är Fannys favoritdjur?</legend>
+ <input type="radio" value="correct" name="q3" id="a3">
+ <label for="a3">a. Kanin</label>
+ <br>
+ <input type="radio" value="wrong" name="q3" id="b3">
+ <label for="b3">b. Katt</label>
+ <br>
+ <input type="radio" value="wrong" name="q3" id="c3">
+ <label for="c3">c. Bäver</label>
+
+ <legend for="q4">4. Hur lång är Fanny?</legend>
+ <input type="radio" value="wrong" name="q4" id="a4">
+ <label for="a4">a. 167 cm</label>
+ <br>
+ <input type="radio" value="wrong" name="q4" id="b4">
+ <label for="b4">b. 163 cm</label>
+ <br>
+ <input type="radio" value="correct" name="q4" id="c4">
+ <label for="c4">c. 160 cm</label>
+
+ <legend for="q5">5. Vad är Fanny rädd för?</legend>
+ <input type="radio" value="wrong" name="q5" id="a5">
+ <label for="a5">a. Ormar</label>
+ <br>
+ <input type="radio" value="correct" name="q5" id="b5">
+ <label for="b5">b. Spindlar</label>
+ <br>
+ <input type="radio" value="wrong" name="q5" id="c5">
+ <label for="c5">c. Att flyga</label>
+
+ <legend for="q6">6. Hur gammal är Fanny?</legend>
+ <input type="radio" value="correct" name="q6" id="a6">
+ <label for="a6">a. 31</label>
+ <br>
+ <input type="radio" value="wrong" name="q6" id="b6">
+ <label for="b6">b. 34</label>
+ <br>
+ <input type="radio" value="wrong" name="q6" id="c6">
+ <label for="c6">c. 26</label>
+
+ <legend for="q7">7. Vilka/vilket av dessa länder har Fanny bott i?</legend>
+ <input type="checkbox" value="wrong" name="q7" id="a7">
+ <label for="a7">a. Spanien</label>
+ <br>
+ <input type="checkbox" value="correct" name="q7" id="b7">
+ <label for="b7">b. Sverige</label>
+ <br>
+ <input type="checkbox" value="correct" name="q7" id="c7">
+ <label for="c7">c. Tyskland</label>
+ <br>
+ <input type="checkbox" value="correct" name="q7" id="d7">
+ <label for="d7">d. USA</label>
+
+ <legend for="q8">8. Vilken årstid är Fannys favorit?</legend>
+ <input type="radio" value="wrong" name="q8" id="a8">
+ <label for="a8">a. Vinter</label>
+ <br>
+ <input type="radio" value="wrong" name="q8" id="b8">
+ <label for="b8">b. Vår</label>
+ <br>
+ <input type="radio" value="correct" name="q8" id="c8">
+ <label for="c8">c. Sommar</label>
+ <br>
+ <input type="radio" value="wrong" name="q8" id="d8">
+ <label for="d8">d. Höst</label>
+
+ <legend for="q9">9. Vilket instrument har Fanny spelat?</legend>
+ <input type="radio" value="wrong" name="q9" id="a9">
+ <label for="a9">a. Tvärflöjt</label>
+ <br>
+ <input type="radio" value="wrong" name="q9" id="b9">
+ <label for="b9">b. Fiol </label>
+ <br>
+ <input type="radio" value="correct" name="q9" id="c9">
+ <label for="c9">c. Trummor</label>
+
+ <legend for="q10">10. Vilken är Fannys favoritdrink? </legend>
+ <input type="radio" value="correct" name="q10" id="a10">
+ <label for="a10">a. Margarita</label>
+ <br>
+ <input type="radio" value="wrong" name="q10" id="b10">
+ <label for="b10">b. Cosmopolitan</label>
+ <br>
+  <input type="radio" value="wrong" name="q10" id="c10">
+ <label for="c10">c. Negroni</label>
+   </div>
+ 
+
+ 
+<br>
+<div id="last-buttons"> <button id="submit-button">Check result</button>
+     <button id="refresh">Börja Om</button>
+</div>
+ <div id ="result"></div>
+    <script src="main.js"></script>
+</body>
+</html>
