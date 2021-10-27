@@ -50,17 +50,17 @@ for(let i = 1; i <= 1; i++) {
 }   
 
  if(myTotal>=7.5)           
-{ myPara.innerText="Du har "+myTotal +"/10 rätt";
+{ myPara.innerText="Du har svarat rätt på "+myTotal +" av 10 frågor!";
 myPara.style.color="#3cdd3c";
  myResultDiv.appendChild(myPara);
 }
      else if(myTotal>=5)           
-       { myPara.innerText="Du har "+myTotal +"/10 rätt";
+       { myPara.innerText="Du har svarat rätt på "+myTotal +" av 10 frågor!";
        myPara.style.color="orange";
         myResultDiv.appendChild(myPara);
     }
     else if(myTotal<5){
-        myPara.innerText="Du har "+myTotal +"/10 rätt";
+        myPara.innerText="Du har svarat rätt på "+myTotal +" av 10 frågor!";
         myPara.style.color="black";
         myResultDiv.appendChild(myPara);
     }
@@ -72,4 +72,3 @@ myPara.style.color="#3cdd3c";
       refreshButton.addEventListener("click", ()=>{
         location.reload();
     })
-    
